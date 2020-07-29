@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="com.myboard.mapper.MyBoardMapper">
+
+  <select id="getList" resultType="com.myboard.vo.MyBoardVo">
+  <!-- ID=인터페이스 이름, RESULTTYPE=위치 -->
+  	SELECT * FROM myboard
+  
+  </select>
+  
+  <insert id="insert">
+  	INSERT INTO myboard(id,w_l,champion,kda,kill_invol)
+  	VALUES (#{id},#{w_l},#{champion},#{kda},#{kill_invol})
+  </insert>
+  
+  <select id="read" resultType="com.myboard.vo.MyBoardVo">
+   SELECT * FROM myboard WHERE id=#{id}
+  </select>
+  
+  <delete id="delete">
+  	DELETE FROM myboard WHERE id=#{id}
+  </delete>
+  
+  <update id="update">
+  	UPDATE myboard SET
+  	w_l=#{w_l}, champion=#{champion}, kda=#{kda}, kill_invol=#{kill_invol}
+  	WHERE id=#{id}  	
+  </update>
+</mapper>
