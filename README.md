@@ -10,6 +10,11 @@
 http://localhost:8080/board/list 페이지로 이동하게 되면 게시판 목록에 대한 정보가 나타납니다.  
 http://localhost:8080/board/register 페이지를 통해 게시판에 데이터를 입력할 수 있습니다.
 
+![image](https://user-images.githubusercontent.com/51408349/125723818-b65de37e-f189-45a2-a27a-b225f183f75b.png)
+
+![image](https://user-images.githubusercontent.com/51408349/125723646-630856b5-d3cf-4d2c-84bb-cc6c1f1134ea.png)
+
+MyBatis, Mapper, JDBC, Hikari + JSP + Oracle DB 이용
 
 
 
