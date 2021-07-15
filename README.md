@@ -14,7 +14,7 @@ http://localhost:8080/board/register 페이지를 통해 게시판에 데이터�
 
 ![image](https://user-images.githubusercontent.com/51408349/125723646-630856b5-d3cf-4d2c-84bb-cc6c1f1134ea.png)
 
-MyBatis, Mapper, JDBC, Hikari + JSP + Oracle DB 이용
+사용기술 : MyBatis, Mapper, JDBC, Hikari + JSP + Oracle DB 이용
 
 
 
